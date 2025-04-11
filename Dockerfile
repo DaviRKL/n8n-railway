@@ -1,4 +1,4 @@
-FROM n8nio/n8n
+FROM n8nio/n8n:1.41.0
 
 # Define o diretório onde o n8n salva tudo (workflows, execuções, etc.)
 ENV N8N_USER_FOLDER="/home/node/.n8n"
